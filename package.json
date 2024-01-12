@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@fastify/formbody": "^7.4.0",
+    "@fastify/redis": "^6.1.1",
+    "amqplib": "^0.10.3",
+    "axios": "^1.6.5",
+    "boom": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.25.2",
+    "fastify-redis": "^4.4.0",
+    "fastify-swagger": "^5.2.0",
+    "mysql2": "^3.7.0",
+    "redis": "^4.6.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
