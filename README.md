@@ -1,8 +1,6 @@
-NODE_ENV=
-
 # Variables de entorno a configurar
 
-En el archivo **application.yaml**:
+En el archivo **.env**:
 
 NODE_ENV=(development,production)
 ```
